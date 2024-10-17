@@ -1,4 +1,7 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+![Alt text](relative/path/to/CalendarScreen.png)
+![Alt text](relative/path/to/EventScreen.png)
+![Alt text](relative/path/to/ProfileScreen.png)
+![Alt text](relative/path/to/SignInScreen.png)
 
 # Calendar Events App
 
