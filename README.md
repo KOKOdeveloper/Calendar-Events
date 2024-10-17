@@ -11,13 +11,26 @@
 
 Make sure you follow "https://reactnative.dev/docs/environment-setup" for setuo react native environment (react-native": "0.75.4").
 Open the terminal and navigate to root of the project 
+run "npm install"
+navigate to ios directory and run "pod install"
 run "npm start"
 run "i" for ios, and "a" for android
 
 ```bash
 # using npm
+npm install
+```
+
+```bash
+# navigate to ios directory and run
+pod install
+```
+
+```bash
+# get back to root directory
 npm start
 ```
+
 ### For iOS
 
 ```bash
