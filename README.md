@@ -1,7 +1,7 @@
-![Alt text](relative/path/to/CalendarScreen.png)
-![Alt text](relative/path/to/EventScreen.png)
-![Alt text](relative/path/to/ProfileScreen.png)
-![Alt text](relative/path/to/SignInScreen.png)
+![Alt text](./CalendarScreen.png)
+![Alt text](./EventScreen.png)
+![Alt text](./SigninScreen.png)
+![Alt text](./ProfileScreen.png)
 
 # Calendar Events App
 
