@@ -1,47 +1,52 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# Calendar Events App
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## INSTALATION
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
+Make sure you follow "https://reactnative.dev/docs/environment-setup" for setuo react native environment (react-native": "0.75.4").
+Open the terminal and navigate to root of the project 
+run "npm start"
+run "i" for ios, and "a" for android
 
 ```bash
 # using npm
 npm start
-
-# OR using Yarn
-yarn start
 ```
+### For iOS
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+```bash
+# using npm
+npm run ios
+```
 
 ### For Android
 
 ```bash
 # using npm
 npm run android
-
-# OR using Yarn
-yarn android
 ```
 
-### For iOS
+## TESTS
+
+Open terminal and navigate to root of the project
+run "npm test".
+
+### Running tests
 
 ```bash
 # using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+npm test
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## USAGE
+This app handle two ways of storage "Firebase" and "AsyncStorage". You can choose which storage you want to use at initial screen.
+If you want to change storage you need to log out user and get back to initial screen (Sign in screen)
+After you create account you can use biometrics to log in with that account. Biometrics works with last authenticated user (Signed in or Signed up) depending on storage.
+To make sure that biometrics will work you need to enable simulator to work with biometrics, if you don't enable it, button for biometrics will not be shown.
+Be aware that simulator sometimes get stuck and biometrics can't be enroled from first time so please try few times. Enable biometrics:
+    ios = Features tab -> FaceID -> check "Enroled".
+    android = FaceID doesn't work on simulator, but touch id work. Setup touch ID in settings of simulator (like normal device) and simulate on 3 dots -> fingerprints -> Touch sensor
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
